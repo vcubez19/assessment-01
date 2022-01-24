@@ -1,0 +1,51 @@
+body {
+    background-color: ivory;
+}
+
+
+#page-image {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 300px;
+}
+
+
+.button-group {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.fancy-button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: white;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.fancy-button:hover {
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+
+.fancy-button:active {
+    box-shadow: 0 3px dodgerblue;
+    transform: translateY(4px);
+}
+
+
+#paragraph {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+
